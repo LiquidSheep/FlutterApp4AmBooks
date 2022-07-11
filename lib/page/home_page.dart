@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           Navigator.push(
             context,
             PageRouteBuilder(
-              transitionDuration: const Duration(milliseconds: 1500),
+              transitionDuration: const Duration(milliseconds: 1000),
               pageBuilder: (context, animation, secondaryAnimation) =>
                   FadeTransition(
                 opacity: animation,
